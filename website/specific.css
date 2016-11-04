@@ -1,0 +1,122 @@
+/* SECTION RELATIVE */
+/*//////////////////*/
+
+#sect-art {
+    margin-top: 1em;
+}
+#sect-graphisme, #sect-nmilliards {
+    margin-top: 4em;
+}
+#sect-nmilliard {
+    margin-bottom: 8em;
+}
+
+
+/* BACKGROUND IMAGE CONTENT */
+/*//////////////////////////*/
+
+#lnsr {
+    background-image: url(imgs/lnsr/lnsrBG.svg);
+    background-position: center;;
+
+}
+#oc {
+    background-image: url(imgs/oc/ocBG.svg);
+    background-position: center;;
+}
+#j1000 {
+    background-image: url(imgs/j1000/j1000BG.png);
+    background-position: center;;
+}
+#adi {
+    background-image: url(imgs/adi/adiBG.svg);
+    background-position: center;;
+}
+#tvp {
+    background-image: url(imgs/tvp/tvpBG.svg);
+}
+
+/* CONTENT SPECIFIC TITLE */
+/*////////////////////////*/
+
+#milleTitre {
+    font-size: 3em;
+    text-align: center;
+    padding: 0.5em 0;
+    font-family: 'pxph';
+    background-color: black;
+    color: white;
+
+    margin-bottom: 1em;
+}
+#tvpTitre, #pxphTitre {
+    font-family: 'pxph';
+    font-size: 3em;
+
+    margin-bottom: 1em;
+}
+
+#igtv .titreImg, #pygame .titreImg, #walleeno .titreImg {
+    width: 30%;
+}
+#adi .titreImg {
+    width: 50%;
+}
+
+/* CONTENT IMAGES */
+/*////////////////*/
+
+#lnsrContainer {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#adiAffiche, #wePhoto {
+    max-width: 60%;
+    margin: 4em 0;
+}
+#pxphTable {
+    max-width: 70%;
+    margin: 4em auto;
+}
+
+
+/* MORE THINGS */
+/*/////////////*/
+
+.padPara {
+    padding: 1em;
+    background-color: white;
+    margin-bottom: 1.5em;
+}
+
+.specimen strong {
+    font-family: 'pxph';
+    font-weight: normal;
+
+    padding-right: 0.5em;
+    width: 100%;
+}
+.speblue {
+    background-color: blue;
+    color: white;
+}
+#taille1 {
+    font-size: 3em;
+    margin-top: 1em;
+}
+#taille2 {
+    font-size: 2em;
+    margin-top: 1.5em;
+    width: 75%;
+}
+#taille3 {
+    font-size: 1em;
+    margin-top: 2.5em;
+    width: 50%;
+}
+#taille4 {
+    font-size: 0.8em;
+    margin-top: 3em;
+    width: 25%;
+}

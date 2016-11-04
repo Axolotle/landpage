@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+    font-size: 100%;
+	box-sizing: border-box;
+    list-style-type: none;
+    line-height: 1.25em;
+}
+
+body {
+	font-family: 'Hack', 'hack', monospace;
+	background-color: blue;
+	font-size: 0.9em;
+    margin: auto;
+}
+i {
+	font-style: italic;
+}
+b {
+	font-weight: bold;
+}
+sup {
+    vertical-align: super;
+    font-size: 0.6em;
+}
+
+
+#main {
+    max-width: 70em;
+	background-color: white;
+	padding: 4em;
+}
+
+
+/* CONTENT */
+/*/////////*/
+
+h1 {
+    font-family: 'pxph';
+    font-size: 3em;
+    border: 2px solid black;
+    padding-left: 0.65em;
+    max-width: 12em;
+}
+#adr {
+    color: white;
+    background-color: blue;
+    padding: 0em 2em;
+    text-decoration: none;
+	border: none;
+}
+
+
+section {
+    margin-top: 4em;
+}
+h2 {
+    background-color: black;
+    padding: 0 1em;
+    color: white;
+    display: inline-block;
+    margin-bottom: 1.5em;
+}
+
+h3 {
+    border: 2px solid black;
+
+    color: black;
+    display: inline-block;
+    padding: 0 2em 0 1em;
+    margin-top: 0.2em;
+
+}
+h4 {
+    font-style: italic;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: underline;
+	margin-top: 0.4em;
+}
+
+.date {
+    margin-top: 0.2em;
+}
+.piece {
+    margin-top: 0.2em;
+    margin-left: calc(1em + 2px);
+}
+
+.list > h3:not(:first-child) {
+    margin-top: 1em;
+}
+.list p:not([class]) {
+    margin-top: 0.5em;
+}
+
+s {
+	text-decoration: none;
+	border-bottom: 2px solid black;
+}
+
+/* LINKS */
+/*///////*/
+
+a:link, a:visited {
+    text-decoration: none;
+	color: black;
+    border-bottom: 4px solid blue;
+}
+a:hover, a:active {
+    color: blue;
+}
+
+/* PLUS */
+/*//////*/
+
+::-moz-selection {
+  color: white;
+  background: blue;
+}
+::selection {
+  color: white;
+  background: blue;
+}
+
+
+/* FONTS */
+/*///////*/
+
+@font-face {
+	font-family: 'pxph';
+	src: 	url('fonts/pxph9/pixelpathhp-regular-webfont.woff') format('woff'),
+			url('fonts/pxph9/pixelpathhp-regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'hack';
+    src: url('fonts/hack/hack-regular-webfont.woff') format('woff'),
+         url('fonts/hack/hack-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hack';
+    src: url('fonts/hack/hack-italic-webfont.woff') format('woff'),
+         url('fonts/hack/hack-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'hack';
+    src: url('fonts/hack/hack-bold-webfont.woff') format('woff'),
+         url('fonts/hack/hack-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'hack';
+    src: url('fonts/hack/hack-bolditalic-webfont.woff') format('woff'),
+         url('fonts/hack/hack-bolditalic-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}

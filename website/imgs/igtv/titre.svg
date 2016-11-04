@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="400px" height="67.709px" viewBox="0 0 400 67.709" enable-background="new 0 0 400 67.709" xml:space="preserve">
+<g>
+
+		<polyline fill="none" stroke="#1A171B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3" points="
+		61.999,17.854 53.999,17.854 37.999,33.854 37.999,41.854 45.999,49.854 53.999,49.854 53.999,41.854"/>
+	<g>
+
+			<polyline fill="none" stroke="#1A171B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3" points="
+			17.999,49.854 17.999,33.854 25.999,25.854 25.999,17.854"/>
+
+			<line fill="none" stroke="#1A171B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3" x1="17.999" y1="17.854" x2="33.999" y2="17.854"/>
+
+			<line fill="none" stroke="#1A171B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3" x1="25.999" y1="49.854" x2="9.999" y2="49.854"/>
+	</g>
+	<g>
+
+			<polyline fill="none" stroke="#1A171B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3" points="
+			81.997,17.854 81.997,33.854 73.997,41.854 73.997,49.854"/>
+
+			<line fill="none" stroke="#1A171B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3" x1="73.997" y1="17.854" x2="89.997" y2="17.854"/>
+	</g>
+
+		<polyline fill="none" stroke="#1A171B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="3" points="
+		101.997,17.854 101.997,25.854 93.997,33.854 93.997,41.854 101.997,49.854 109.997,41.854 109.997,33.854 117.997,25.854
+		117.997,17.854"/>
+</g>
+</svg>
