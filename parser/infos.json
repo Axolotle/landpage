@@ -23,6 +23,13 @@
 
     "sections" : {
         "art" : {
+            "sisifo" : {
+                "titre": "SÍSIFO - LES RÈGLES DE LA NUIT",
+                "version": "oct 2016 - 2018",
+                "licence": "GPL 1.3",
+                "adr": "https://sisifo.site",
+            	"adrname": "sisifo.site"
+            },
             "lnsr": {
                 "titre": "LIGHT-NANOSECOND RULER",
                 "version": "v1 - 2016",
