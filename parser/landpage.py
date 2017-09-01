@@ -128,7 +128,6 @@ class Section():
 
 
     def generateProject(self, project, infos):
-        print(project, infos)
 
         with tag("div", klass="file"):
             with tag("div", klass="base-content box flex thinBorder"):

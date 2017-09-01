@@ -17,7 +17,7 @@
         },
         "options" : {
             " open all" : "openAll()",
-            " close all" : "resetContent()"
+            " close all" : "closeAll()"
         }
     },
 

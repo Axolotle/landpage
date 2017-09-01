@@ -209,15 +209,14 @@ img{
 }
 
 .altText {
-    color: white;
-    font-size: 0.7rem;
     margin-bottom: 3em;
 	display: flex;
 	justify-content: flex-end;
 }
 .altText em {
+	color: white;
+    font-size: 0.7rem;
 	background-color: black;
-
 }
 
 /* RIGHT CONTENT */
