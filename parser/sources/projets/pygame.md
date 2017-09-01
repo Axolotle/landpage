@@ -10,15 +10,13 @@
 
 <div markdown=1 class="col-left">
 
-![titre py][title]
-{: .titreImg .img}
+![titre py][title]{: .titreImg}
 
 nomDuJeu est un _transport puzzle_, un petit jeu en pixel art extrêmement basique entièrement codé en python avec l'aide de la librairie [Pygame][]{: target="blank"}. L'objectif est de positionner des blocs à des endroits précis en les poussant.
 
 Nous proposons lors d'ateliers d'initiation à la programmation de réaliser ce petit jeu. Cet atelier propose d'introduire les concepts fondamentaux et la logique de programmation à travers l'élaboration étape par étape d'un jeu _text based_ puis du jeu graphique.
 
 ![Screenshot jeu][screenshot]
-{: .img}
 
 </div>
 

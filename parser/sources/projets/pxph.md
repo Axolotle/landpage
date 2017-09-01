@@ -37,8 +37,7 @@ site ↑↑↑
 Les sources ne sont pas encore distribuées. Et j'aimerais réaliser la font pixel en font matricielle mais vous pouvez d'ors et déjà télécharger et utiliser pxph-9.
 {: .comment .black}
 
-![pxph table des caractère][table]
-{: .img #pxphTable}
+![pxph table des caractère][table]{: #pxphTable}
 
 <!-- [Sources <span class="sym">↗</span>][sourcesGitHub]{: .sources target="blank"}
 {: .sourcesp} -->

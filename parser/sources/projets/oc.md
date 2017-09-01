@@ -9,21 +9,23 @@
 
 <div markdown=1 class="col-left">
 
-![titre oc][title]
-{: .titreImg .img}
+![titre oc][title]{: .titreImg}
 
 Les dessins des constellations tels que nous les connaissons appartiennent à une époque révolue ; ils ne sont que la simple anamorphose d’un tracé beaucoup plus complexe qu'il est désormais possible de mettre en lumière.  
 En récupérant la position des étoiles d'une constellation par rapport au Soleil, il est possible de modéliser un volume à facettes dont chaque sommet sera associé à la position « exacte » – d’après nos actuelles observations issus des calculs du satellite Hipparcos – de chacune des étoiles dans l'espace. Libérée du point de vue terrestre, la constellation retrouve dès lors sa troisième dimension.
 
-![Grande Ourse 3D][vue3D]
-_[modélisation de la Grande Ourse]_{: .altText}
-{: .imgAlt}
+![Grande Ourse 3D][vue3D]{: .imgAlt}
+
+_[modélisation de la Grande Ourse]_
+{: .altText}
+
 
 Grâce à cette modélisation, de nouvelles formes et traductions sont envisageables : matérialiser les constellations grâce à une impression 3D à échelle extrêmement réduite, tenant dans la main ; associer en un volume global toutes les constellations et produire ainsi une carte/objet en trois dimensions de la sphère céleste ; ou encore, observer la déformation opérée par l’anamorphose d'un point de vue autre que celui de la Terre.
 
-![Grande Ourse dessin][map]
-_[dessin de la Grande Ourse]_{: .altText}
-{: .imgAlt}
+![Grande Ourse dessin][map]{: .imgAlt}
+
+_[dessin de la Grande Ourse]_
+{: .altText}
 
 Il n'existe pas de convention ni de sélection officielle d'étoile définissant le dessin d'une constellation. La sélection des étoiles pour ce projet suis une méthode basique, chacune des étoiles possède une magnitude inférieure à 6 (au delà une étoile n'est pas visible à l'oeil nu) et sélectionne arbitrairement un nombre suffisant d'objets dans l'ordre de leur magnitude (aucune étoile ayant une magnitude inférieure à la plus faible n'a été rejetée) afin de trouver un dessin littéralement similaire à leur nom. La modélisation 3D est elle aussi arbitraire quoique générique (les faces partant du Soleil tente d'englober l'ensemble d'étoiles et se referme derrière).
 

@@ -1,0 +1,95 @@
+{
+    "meta" : {
+        "title": "nicolas chesnais - autre.space",
+        "description" : "nicolas chesnais - landpage",
+        "keywords": "chesnais, nicolas, artiste, graphiste, n × 10⁹, n-milliards, hackstub, autre, temps, time, espace, space, art, graphisme, graphic design, licence libre"
+    },
+
+    "body" : {
+        "collectifs" : {
+            "hackstub" : "https://hackstub.netlib.re/landpage/",
+            "n × 10⁹" : "https://github.com/n-milliards/"
+        },
+        "menu" : {
+            " /infos" : "infos.html",
+            " /ressources" : "https://autre.space/ressources",
+            " Github" : "https://github.com/Axolotle"
+        },
+        "options" : {
+            " open all" : "openAll()",
+            " close all" : "resetContent()"
+        }
+    },
+
+    "sections" : {
+        "art" : {
+            "lnsr": {
+                "titre": "LIGHT-NANOSECOND RULER",
+                "version": "v1 - 2016",
+                "licence": "LAL 1.3",
+                "adr": "https://lnsr.autre.space",
+            	"adrname": "<s class='unacess'>lnsr.autre.space</s>"
+            },
+            "igtv": {
+                "titre": "INSTRUMENT DE GÉO-TEMPS VARIANT - n × 10⁹",
+                "version": "v1 - 2016",
+                "licence": "GPL 1.3",
+                "adr": "https://variable-time.xyz",
+            	"adrname": "variable-time.xyz"
+            },
+            "oc": {
+                "titre": "OBJETS CÉLESTES",
+                "version": "v1 - 2014",
+                "licence": "LAL 1.3",
+                "adr": "http://naco.la-oui.ch/",
+            	"adrname": "<s class='unacess'>objectceleste.autre.space</s>"
+            }
+        },
+        "graphisme" : {
+            "tvp": {
+                "titre": "TA VITESSE PLAFOND - ZANZIBAR",
+                "version": "mai 2016",
+                "licence": "CC BY-NC-ND 4.0",
+                "adr": "http://zanzibar.zone",
+                "adrname": "zanzibar.zone"
+            },
+            "j1000": {
+                "titre": "1000 JOURS EN MARS - ZANZIBAR",
+                "version": "mars 2016",
+                "licence": "LAL 1.3",
+                "adr": "https://1000joursenmars.space",
+                "adrname": "1000joursenmars.space"
+            },
+            "adi": {
+                "titre": "AVENIR(S) D'INTERNET - HACKSTUB",
+                "version": "nov 2015",
+                "licence": "GPL 1.3",
+                "adr": "https://avenirsdinter.net",
+                "adrname": "avenirsdinter.net"
+            },
+            "pxph": {
+                "titre": "PIXELPATH FONT",
+                "version": "2014",
+                "licence": "LAL 1.3",
+                "adr": "https://pxph.autre.space",
+                "adrname": "<s class='unacess'>pxph.autre.space</s>"
+            }
+        },
+        "nmilliards" : {
+            "pygame": {
+                "titre": "JEU-VIDÉO MINIMALISTE - PYTHON",
+                "version": "juillet 2016",
+                "licence": "GPL 1.3",
+                "adr": "https://github.com/n-milliards/atelierPython",
+                "adrname": "/atelierPython"
+            },
+            "walleeno": {
+                "titre": "WALL-EENO - ARDUINO",
+                "version": "since 2014",
+                "licence": "GPL 1.3",
+                "adr": "https://github.com/n-milliards/atelierArduino",
+                "adrname": "/atelierArduino"
+            }
+        }
+    }
+}

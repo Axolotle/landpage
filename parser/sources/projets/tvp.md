@@ -13,9 +13,10 @@
 Stéphane Mallarmé, *l'action restreinte*
 {: .padPara}
 
-![preview][]
-_[preview de 2 exemplaires]_{: .altText}
-{: .imgAlt}
+![preview][]{: .imgAlt}
+
+_[preview de 2 exemplaires]_
+{: .altText}
 </div>
 
 <div markdown=1 class="col-right">

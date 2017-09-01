@@ -8,23 +8,23 @@
     <meta name="author" content="nicolas chesnais" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="specific.css" />
-    <link type="image/png" rel="icon" href="imgs/favicon.png" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
   </head>
   <body>
     <div id="main">
-      <div class="box flex thinBorder" id="main-title">
+      <div id="main-title" class="box flex thinBorder">
         <h1>nicolas chesnais</h1>
       </div>
-      <div id="collectifs">&gt;&gt;<span id="plus">+</span><a href="https://github.com/n-milliards/">n × 10⁹</a><a href="https://hackstub.netlib.re/landpage/">hackstub</a></div>
+      <div id="collectifs">&gt;&gt;<span id="plus">+</span><a href="https://hackstub.netlib.re/landpage/">hackstub</a><a href="https://github.com/n-milliards/">n × 10⁹</a></div>
       <ul id="menu">
         <li>
-          <a class="black" href="https://autre.space/ressources"><span>→</span> /ressources</a>
+          <a href="infos.html" class="black"><span>→</span> /infos</a>
         </li>
         <li>
-          <a class="black" href="https://github.com/Axolotle"><span>↗</span> Github</a>
+          <a href="https://autre.space/ressources" class="black"><span>→</span> /ressources</a>
         </li>
         <li>
-          <a class="black" href="infos.html"><span>→</span> /infos</a>
+          <a href="https://github.com/Axolotle" class="black"><span>↗</span> Github</a>
         </li>
       </ul>
       <div class="options">
@@ -32,7 +32,7 @@
         <a onclick="resetContent()"><span class="black">-</span> close all</a>
       </div>
       <section id="sect-art">
-        <div class="folder box flex black thinBorder" id="art">
+        <div id="art" class="folder box flex black thinBorder">
           <h3>art</h3>
         </div>
         <div class="triangle"></div>
@@ -48,28 +48,160 @@
         </div>
         <div class="file">
           <div class="base-content box flex thinBorder">
-            <h4 class="targ">OBJETS CÉLESTES</h4>
-            <p class="version">v1 - 2004</p>
+            <h4 class="targ">LIGHT-NANOSECOND RULER</h4>
+            <p class="version">v1 - 2016</p>
             <p class="licence">LAL 1.3</p>
-            <a target="_blank" href="http://naco.la-oui.ch/">
+            <a href="https://lnsr.autre.space" target="_blank">
+              <s class='unacess'>lnsr.autre.space</s>
+            </a>
+          </div>
+          <div id="lnsr" class="content thinBorder">
+            <div class="col-left">
+              <img alt="titre lnsr" class="titreImg" src="imgs/lnsr/titre.svg" />
+              <p>La <em>règle de nanoseconde-lumière</em> permet de mesurer la distance parcourue par la lumière en une nanoseconde, soit en un milliardième de seconde (10-9 s). Ce fragment d’année-lumière mesure exactement 29,979 245 8 cm. Pour former une année-lumière complète, soit une distance d’environ 9 500 milliards de kilomètres, il faudrait emboîter 31,5 billiards d’exemplaires.</p>
+              <img alt="règle 1" src="imgs/lnsr/ruler1.svg" />
+              <p>Cette distance, à première vue colossale, est pourtant insignifiante quand on la ramène à l’échelle de l’Univers. L’unité de mesure privilégiée des voyages de science-fiction est ainsi décomposée et ramenée à l’échelle humaine. Chacun-e peut télécharger le tracé vectoriel d'un exemplaire d’une règle à lnsr.autre.space et participer à la représentation d’une année-lumière.</p>
+              <p>En reprenant certains code de la production en masse d'objets, nous pouvons disposer 1328 règles dans un carton, soit l’équivalent de 1,3 microseconde-lumière, puis 729 cartons dans un conteneur, soit l’équivalent de 1 milliseconde-lumière, nous sommes en mesure de calculer le volume approximatif que représenterait la fabrication d’une année-lumière complète.</p>
+              <img alt="container" id="lnsrContainer" src="imgs/lnsr/ruler-cardboardbox-container.png" />
+              <p>Le <em>gigaconteneur-lumière</em>, composé des 32,5 milliards de conteneurs nécessaires et organisés de manière homothétique, formerait un volume de 19,4 km de long, 7,8 km de large et 8,3 km de haut. Deux animations 3D simulant ce volume sont accessibles sur le site.</p>
+              <img alt="dezoom" src="imgs/lnsr/dezoom.png" />
+              <img alt="19km" src="imgs/lnsr/19km.png" />
+              <p>Il semblerait que nous épuiserions des ressources en quantité phénoménale afin de réaliser ce projet absurde. Mais je crois beaucoup en la flemme éternelle de chacun pour que ce fichier reste sur vos disques durs !</p>
+            </div>
+            <div class="col-right">
+              <p class="visit">site ↑↑↑</p>
+              <p class="comment black">Le site n'est toujours pas en ligne, j'essaie de m'y consacrer bientôt.<br />
+Un pdf résumant et présentant le projet peut m'être demandé.</p>
+              <p class="sourcesp">
+                <a class="sources" href="https://github.com/" target="blank" title="Sources sur GitHub">Sources <span class="sym">↗</span></a>
+              </p>
+              <dl>
+                <dt>~light-nanosecond_ruler</dt>
+                <dd>
+                  <dl>
+                    <dt>/lnsr_n1.object <span class="done">✓</span></dt>
+                    <dd class="desc">Premier exemplaire d’une nanoseconde-lumière. Elle est le point de départ de la future année-lumière.</dd>
+                  </dl>
+                </dd>
+                <dd>
+                  <dl>
+                    <dt>/lnsr_generator <span class="done">~</span></dt>
+                    <dd class="desc">Un site sur lequel il possible de télécharger les fichiers permettant de fabriquer soi-même la règle ou en commander une. Ce site fait aussi office de compteur général et s’arrêtera lorsque l’année-lumière aura été entièrement téléchargée (soit 31 557 600 000 000 000 clics).</dd>
+                  </dl>
+                </dd>
+                <dd>
+                  <dl>
+                    <dt>/light-year_gigacontainer <span class="done">✓</span></dt>
+                    <dd class="desc">Le gigacontainer est une forme fictive de production à grande échelle qui donne à voir le volume total que représente les règles. Il est composé de ~24 billions de conteneurs répartis de manière homothétique.</dd>
+                    <dd>
+                      <dl>
+                        <dt>/50s_dezoom.video <span class="done">✓</span></dt>
+                        <dd class="desc">Réalisation d’une video dézoomant sur le gigacontainer. </br>50 s - loop.</dd>
+                      </dl>
+                    </dd>
+                    <dd>
+                      <dl>
+                        <dt>/19km_travelling.video <span class="done">✓</span></dt>
+                        <dd class="desc">Travelling de 19 km sur la longueur du gigacontainer. </br>5 h 32 min - loop.</dd>
+                      </dl>
+                    </dd>
+                  </dl>
+                </dd>
+              </dl>
+              <p class="public"><strong class="publicTitle">Exposition :</strong><br />
+La règle n°1, réalisée à la découpe laser dans du PMMA, à été exposée avec un dispositif lumineux à l'<a href="http://www.espacemultimediagantner.cg90.net/" target="_blank">Espace Multimédia Gantner</a> du 7 novembre 2015 au 23 janvier 2016 à l'occasion de l'exposition collective <a href="http://www.espacemultimediagantner.cg90.net/exposition/apparitions-revelations-une-exploration-de-la-lumiere/" target="_blank">Apparitions – Révélations, une exploration de la lumière</a>.<br /><a href="http://www.espacemultimediagantner.cg90.net/VR/apparitions/tour.html" target="_blank">-&gt;Visite virtuelle de l'expo</a></p>
+              <img alt="installEMG" id="lnsrInstall" src="imgs/lnsr/installEMG.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="file">
+          <div class="base-content box flex thinBorder">
+            <h4 class="targ">INSTRUMENT DE GÉO-TEMPS VARIANT - n × 10⁹</h4>
+            <p class="version">v1 - 2016</p>
+            <p class="licence">GPL 1.3</p>
+            <a href="https://variable-time.xyz" target="_blank">variable-time.xyz</a>
+          </div>
+          <div id="igtv" class="content thinBorder">
+            <div class="col-left">
+              <img alt="titre IGTV" class="titreImg" src="imgs/igtv/titrePx.svg" />
+              <p>Vous vous trouvez le 18 mai 2016 à Reykjavik, en Islande, aux coordonnées 64°08’07” Nord et 21°53’43” Ouest ; à votre poignet ou dans votre poche se trouve un petit cadran solaire numérique, composé d’un écran, d’un récepteur GPS et d’un micro-contrôleur : c’est l’instrument de géo-temps variant (IGTV). On observe dans cette région de la Terre des différences extrêmes entre la durée des jours et des nuits qui permettent d’éprouver pleinement les caractéristiques de cet instrument. À cet endroit précis, le <a href="https://fr.wiktionary.org/wiki/nycth%C3%A9m%C3%A8re" target="blank" title="Définition de nycthémère">nycthémère</a> se partage approximativement en 18 heures et 49 minutes de jour, et, par conséquent, 5 heures et 11 minutes de nuit. L’IGTV va convertir chacune de ces durées en 12 heures, à l’instar du système des heures inégales romaines et grecques, utilisé jusqu’à la fin du Moyen Âge.</p>
+              <p>En divisant la durée du jour (18 h 49 min, soit 67 740 secondes) en 12 heures (43 200 secondes), on obtient la valeur suivante : 1 seconde variable du jour (notée 1 ~s<sup>jour</sup>) équivaut à environ 1,57 seconde constante (notée 1 s). De la même manière, 1 ~s<sup>nuit</sup> représente 0,43 s (5 heures 11 minutes divisées par 12 heures). Lorsque 1 seconde variable de jour s’incrémente, il s’est écoulé 1,57 seconde constante (~s est plus lente que s) et la nuit, lorsque 1 seconde variable s’incrémente, il ne s’est écoulé que 0,43 seconde constante (~s est alors plus de deux fois plus rapide que s).</p>
+              <img alt="Schéma concept" src="imgs/igtv/concept.svg" />
+              <p>L’IGTV opère également un changement de rythme de la seconde variable, pour lisser le passage de la valeur de ~s<sup>jour</sup> à ~s<sup>nuit</sup> : plutôt que de passer brusquement de l’une à l’autre (de ~s = 1,57 à 0,43 au moment du coucher du soleil par exemple), l’instrument calcule une intégrale à l’intérieur même de la journée de manière à ce qu’au moment du coucher et du lever de soleil, 1 ~s soit égale à 1 s. La valeur de la seconde variable (irrégulière) va elle-même varier au cours de la journée et ne sera dès lors plus absolue elle-même. Elle sera égale à 1s au lever, augmentera progressivement jusqu’à atteindre un pic supérieur à la valeur précédemment calculée, 1,57s en milieu de journée, puis diminuera jusqu’à atteindre le palier de 1s au moment du coucher et évoluera de manière inverse durant la nuit et ainsi de suite.</p>
+              <img alt="Schéma variation de s~" class="imgAlt" src="imgs/igtv/variationS.svg" />
+              <p class="altText">
+                <em>variation de ~s<sup>var</sup> sur le nycthémère</em>
+              </p>
+              <p>Un troisième niveau de variation apparaît lorsque vous vous déplacez car vous intervenez dès lors dans un autre espace, un ailleurs qui n’a plus les mêmes durées de jour et de nuit. L’IGTV recalcule en permanence la valeur de la seconde variable selon votre position géographique précise récupéré par le GPS et affiche continuellement une heure propre au point géographique auquel vous vous trouvez. Il traduit un temps local.</p>
+              <p>Vous pouvez lire l'<a href="https://autre.space/tout" target="blank" title="Lien vers l'article publié dans Tout">article complet</a> publié dans la revue Tout pour plus d'informations et interrogations.</p>
+            </div>
+            <div class="col-right">
+              <p class="visit">site ↑↑↑</p>
+              <p class="comment black">L'instrument est toujours en développement, le code est accessible sur github et est d'ors et déjà exploitable en l'état même s'il manque une doc qui ne devrait plus trop tarder. Nous tentons actuellement de réaliser la première version standalone, un peu miniaturisée avec des premiers essais de traductions graphique sur un écran à encre.</p>
+              <p class="sourcesp">
+                <a class="sources" href="https://github.com/hackstub/instrumentGeoTempsVariant" target="blank" title="Sources sur GitHub">Sources <span class="sym">↗</span></a>
+              </p>
+              <dl>
+                <dt>~/instrument_de_géo-temps_variant</dt>
+                <dd>
+                  <dl>
+                    <dt>/igtv-arduino <span class="done">~</span></dt>
+                    <dd class="desc">version électronique et portative de l'instrument.</dd>
+                  </dl>
+                </dd>
+                <dd>
+                  <dl>
+                    <dt>/igtv-web <span class="notdone">×</span></dt>
+                    <dd class="desc">version web de l'instrument.</dd>
+                  </dl>
+                </dd>
+                <dd>
+                  <dl>
+                    <dt>/horloges_variables <span class="notdone">×</span></dt>
+                    <dd class="desc">portage du principe de l'igtv sur des horloges fixes pour définir l'heure d'un lieu en particulier sur lesquelles on peut se synchroniser pour partager une heure commune.</dd>
+                  </dl>
+                </dd>
+                <dd>
+                  <dl>
+                    <dt>/carte_de_variation_de_la_seconde_variable <span class="notdone">×</span></dt>
+                    <dd class="desc">représentation graphique 3D de la valeur actuelle de la seconde variable sur la surface de la Terre.</dd>
+                  </dl>
+                </dd>
+                <dd>
+                  <dl>
+                    <dt>/IGTV-Technis&amp;Politique <span class="done">~</span></dt>
+                    <dd class="desc">Tentative de définition technique et politique des concepts liés et produis par la mesure du temps de l'igtv.</dd>
+                  </dl>
+                </dd>
+              </dl>
+              <p class="public"><strong class="publicTitle">Parutions :</strong><br />
+Il est possible de lire mes interrogations liées à la mesure du temps dans le tuto <em><a href="https://autre.space/tout" target="blank" title="Lien vers l'article publié dans Tout">Hacker le temps</a></em>, édité dans la revue Tout, ainsi que dans la 3ème partie de mon <a href="https://autre.space/memoire" target="blank" title="Lien vers la page du mémoire">mémoire</a> de fin de cursus.</p>
+              <img alt="Animation cadran" src="imgs/igtv/tradAnim.gif" />
+            </div>
+          </div>
+        </div>
+        <div class="file">
+          <div class="base-content box flex thinBorder">
+            <h4 class="targ">OBJETS CÉLESTES</h4>
+            <p class="version">v1 - 2014</p>
+            <p class="licence">LAL 1.3</p>
+            <a href="http://naco.la-oui.ch/" target="_blank">
               <s class='unacess'>objectceleste.autre.space</s>
             </a>
           </div>
-          <div class="content thinBorder" id="oc">
+          <div id="oc" class="content thinBorder">
             <div class="col-left">
-              <p class="titreImg img">
-                <img alt="titre oc" src="imgs/oc/titre.svg" />
-              </p>
+              <img alt="titre oc" class="titreImg" src="imgs/oc/titre.svg" />
               <p>Les dessins des constellations tels que nous les connaissons appartiennent à une époque révolue ; ils ne sont que la simple anamorphose d’un tracé beaucoup plus complexe qu'il est désormais possible de mettre en lumière.<br />
 En récupérant la position des étoiles d'une constellation par rapport au Soleil, il est possible de modéliser un volume à facettes dont chaque sommet sera associé à la position « exacte » – d’après nos actuelles observations issus des calculs du satellite Hipparcos – de chacune des étoiles dans l'espace. Libérée du point de vue terrestre, la constellation retrouve dès lors sa troisième dimension.</p>
-              <p class="imgAlt">
-                <img alt="Grande Ourse 3D" src="imgs/oc/vue3D.png" />
-                <em class="altText">[modélisation de la Grande Ourse]</em>
+              <img alt="Grande Ourse 3D" class="imgAlt" src="imgs/oc/vue3D.png" />
+              <p class="altText">
+                <em>[modélisation de la Grande Ourse]</em>
               </p>
               <p>Grâce à cette modélisation, de nouvelles formes et traductions sont envisageables : matérialiser les constellations grâce à une impression 3D à échelle extrêmement réduite, tenant dans la main ; associer en un volume global toutes les constellations et produire ainsi une carte/objet en trois dimensions de la sphère céleste ; ou encore, observer la déformation opérée par l’anamorphose d'un point de vue autre que celui de la Terre.</p>
-              <p class="imgAlt">
-                <img alt="Grande Ourse dessin" src="imgs/oc/map.svg" />
-                <em class="altText">[dessin de la Grande Ourse]</em>
+              <img alt="Grande Ourse dessin" class="imgAlt" src="imgs/oc/map.svg" />
+              <p class="altText">
+                <em>[dessin de la Grande Ourse]</em>
               </p>
               <p>Il n'existe pas de convention ni de sélection officielle d'étoile définissant le dessin d'une constellation. La sélection des étoiles pour ce projet suis une méthode basique, chacune des étoiles possède une magnitude inférieure à 6 (au delà une étoile n'est pas visible à l'oeil nu) et sélectionne arbitrairement un nombre suffisant d'objets dans l'ordre de leur magnitude (aucune étoile ayant une magnitude inférieure à la plus faible n'a été rejetée) afin de trouver un dessin littéralement similaire à leur nom. La modélisation 3D est elle aussi arbitraire quoique générique (les faces partant du Soleil tente d'englober l'ensemble d'étoiles et se referme derrière).</p>
             </div>
@@ -139,238 +271,9 @@ Une petite double page dans <a href="http://www.codemagazine.fr/pdf/code9.pdf" t
             </div>
           </div>
         </div>
-        <div class="file">
-          <div class="base-content box flex thinBorder">
-            <h4 class="targ">INSTRUMENT DE GÉO-TEMPS VARIANT - n × 10⁹</h4>
-            <p class="version">v1 - 2016</p>
-            <p class="licence">GPL 1.3</p>
-            <a target="_blank" href="https://variable-time.xyz">variable-time.xyz</a>
-          </div>
-          <div class="content thinBorder" id="igtv">
-            <div class="col-left">
-              <p class="titreImg img">
-                <img alt="titre IGTV" src="imgs/igtv/titrePx.svg" />
-              </p>
-              <p>Vous vous trouvez le 18 mai 2016 à Reykjavik, en Islande, aux coordonnées 64°08’07” Nord et 21°53’43” Ouest ; à votre poignet ou dans votre poche se trouve un petit cadran solaire numérique, composé d’un écran, d’un récepteur GPS et d’un micro-contrôleur : c’est l’instrument de géo-temps variant (IGTV). On observe dans cette région de la Terre des différences extrêmes entre la durée des jours et des nuits qui permettent d’éprouver pleinement les caractéristiques de cet instrument. À cet endroit précis, le <a href="https://fr.wiktionary.org/wiki/nycth%C3%A9m%C3%A8re" target="blank" title="Définition de nycthémère">nycthémère</a> se partage approximativement en 18 heures et 49 minutes de jour, et, par conséquent, 5 heures et 11 minutes de nuit. L’IGTV va convertir chacune de ces durées en 12 heures, à l’instar du système des heures inégales romaines et grecques, utilisé jusqu’à la fin du Moyen Âge.</p>
-              <p>En divisant la durée du jour (18 h 49 min, soit 67 740 secondes) en 12 heures (43 200 secondes), on obtient la valeur suivante : 1 seconde variable du jour (notée 1 ~s<sup>jour</sup>) équivaut à environ 1,57 seconde constante (notée 1 s). De la même manière, 1 ~s<sup>nuit</sup> représente 0,43 s (5 heures 11 minutes divisées par 12 heures). Lorsque 1 seconde variable de jour s’incrémente, il s’est écoulé 1,57 seconde constante (~s est plus lente que s) et la nuit, lorsque 1 seconde variable s’incrémente, il ne s’est écoulé que 0,43 seconde constante (~s est alors plus de deux fois plus rapide que s).</p>
-              <p class="img">
-                <img alt="Schéma concept" src="imgs/igtv/concept.svg" />
-              </p>
-              <p>L’IGTV opère également un changement de rythme de la seconde variable, pour lisser le passage de la valeur de ~s<sup>jour</sup> à ~s<sup>nuit</sup> : plutôt que de passer brusquement de l’une à l’autre (de ~s = 1,57 à 0,43 au moment du coucher du soleil par exemple), l’instrument calcule une intégrale à l’intérieur même de la journée de manière à ce qu’au moment du coucher et du lever de soleil, 1 ~s soit égale à 1 s. La valeur de la seconde variable (irrégulière) va elle-même varier au cours de la journée et ne sera dès lors plus absolue elle-même. Elle sera égale à 1s au lever, augmentera progressivement jusqu’à atteindre un pic supérieur à la valeur précédemment calculée, 1,57s en milieu de journée, puis diminuera jusqu’à atteindre le palier de 1s au moment du coucher et évoluera de manière inverse durant la nuit et ainsi de suite.</p>
-              <p class="imgAlt">
-                <img alt="Schéma variation de s~" src="imgs/igtv/variationS.svg" />
-                <em class="altText">variation de ~s<sup>var</sup> sur le nycthémère</em>
-              </p>
-              <p>Un troisième niveau de variation apparaît lorsque vous vous déplacez car vous intervenez dès lors dans un autre espace, un ailleurs qui n’a plus les mêmes durées de jour et de nuit. L’IGTV recalcule en permanence la valeur de la seconde variable selon votre position géographique précise récupéré par le GPS et affiche continuellement une heure propre au point géographique auquel vous vous trouvez. Il traduit un temps local.</p>
-              <p>Vous pouvez lire l'<a href="https://autre.space/tout" target="blank" title="Lien vers l'article publié dans Tout">article complet</a> publié dans la revue Tout pour plus d'informations et interrogations.</p>
-            </div>
-            <div class="col-right">
-              <p class="visit">site ↑↑↑</p>
-              <p class="comment black">L'instrument est toujours en développement, le code est accessible sur github et est d'ors et déjà exploitable en l'état même s'il manque une doc qui ne devrait plus trop tarder. Nous tentons actuellement de réaliser la première version standalone, un peu miniaturisée avec des premiers essais de traductions graphique sur un écran à encre.</p>
-              <p class="sourcesp">
-                <a class="sources" href="https://github.com/hackstub/instrumentGeoTempsVariant" target="blank" title="Sources sur GitHub">Sources <span class="sym">↗</span></a>
-              </p>
-              <dl>
-                <dt>~/instrument_de_géo-temps_variant</dt>
-                <dd>
-                  <dl>
-                    <dt>/igtv-arduino <span class="done">~</span></dt>
-                    <dd class="desc">version électronique et portative de l'instrument.</dd>
-                  </dl>
-                </dd>
-                <dd>
-                  <dl>
-                    <dt>/igtv-web <span class="notdone">×</span></dt>
-                    <dd class="desc">version web de l'instrument.</dd>
-                  </dl>
-                </dd>
-                <dd>
-                  <dl>
-                    <dt>/horloges_variables <span class="notdone">×</span></dt>
-                    <dd class="desc">portage du principe de l'igtv sur des horloges fixes pour définir l'heure d'un lieu en particulier sur lesquelles on peut se synchroniser pour partager une heure commune.</dd>
-                  </dl>
-                </dd>
-                <dd>
-                  <dl>
-                    <dt>/carte_de_variation_de_la_seconde_variable <span class="notdone">×</span></dt>
-                    <dd class="desc">représentation graphique 3D de la valeur actuelle de la seconde variable sur la surface de la Terre.</dd>
-                  </dl>
-                </dd>
-                <dd>
-                  <dl>
-                    <dt>/IGTV-Technis&amp;Politique <span class="done">~</span></dt>
-                    <dd class="desc">Tentative de définition technique et politique des concepts liés et produis par la mesure du temps de l'igtv.</dd>
-                  </dl>
-                </dd>
-              </dl>
-              <p class="public"><strong class="publicTitle">Parutions :</strong><br />
-Il est possible de lire mes interrogations liées à la mesure du temps dans le tuto <em><a href="https://autre.space/tout" target="blank" title="Lien vers l'article publié dans Tout">Hacker le temps</a></em>, édité dans la revue Tout, ainsi que dans la 3ème partie de mon <a href="https://autre.space/memoire" target="blank" title="Lien vers la page du mémoire">mémoire</a> de fin de cursus.</p>
-              <p class="img">
-                <img alt="Animation cadran" src="imgs/igtv/tradAnim.gif" />
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="file">
-          <div class="base-content box flex thinBorder">
-            <h4 class="targ">LIGHT-NANOSECOND RULER</h4>
-            <p class="version">v1 - 2016</p>
-            <p class="licence">LAL 1.3</p>
-            <a target="_blank" href="https://lnsr.autre.space">
-              <s class='unacess'>lnsr.autre.space</s>
-            </a>
-          </div>
-          <div class="content thinBorder" id="lnsr">
-            <div class="col-left">
-              <p class="titreImg img">
-                <img alt="titre lnsr" src="imgs/lnsr/titre.svg" />
-              </p>
-              <p>La <em>règle de nanoseconde-lumière</em> permet de mesurer la distance parcourue par la lumière en une nanoseconde, soit en un milliardième de seconde (10-9 s). Ce fragment d’année-lumière mesure exactement 29,979 245 8 cm. Pour former une année-lumière complète, soit une distance d’environ 9 500 milliards de kilomètres, il faudrait emboîter 31,5 billiards d’exemplaires.</p>
-              <p class="img">
-                <img alt="règle 1" src="imgs/lnsr/ruler1.svg" />
-              </p>
-              <p>Cette distance, à première vue colossale, est pourtant insignifiante quand on la ramène à l’échelle de l’Univers. L’unité de mesure privilégiée des voyages de science-fiction est ainsi décomposée et ramenée à l’échelle humaine. Chacun-e peut télécharger le tracé vectoriel d'un exemplaire d’une règle à lnsr.autre.space et participer à la représentation d’une année-lumière.</p>
-              <p>En reprenant certains code de la production en masse d'objets, nous pouvons disposer 1328 règles dans un carton, soit l’équivalent de 1,3 microseconde-lumière, puis 729 cartons dans un conteneur, soit l’équivalent de 1 milliseconde-lumière, nous sommes en mesure de calculer le volume approximatif que représenterait la fabrication d’une année-lumière complète.</p>
-              <p class="img" id="lnsrContainer">
-                <img alt="container" src="imgs/lnsr/ruler-cardboardbox-container.png" />
-              </p>
-              <p>Le <em>gigaconteneur-lumière</em>, composé des 32,5 milliards de conteneurs nécessaires et organisés de manière homothétique, formerait un volume de 19,4 km de long, 7,8 km de large et 8,3 km de haut. Deux animations 3D simulant ce volume sont accessibles sur le site.</p>
-              <p class="img">
-                <img alt="dezoom" src="imgs/lnsr/dezoom.png" />
-              </p>
-              <p class="img">
-                <img alt="19km" src="imgs/lnsr/19km.png" />
-              </p>
-              <p>Il semblerait que nous épuiserions des ressources en quantité phénoménale afin de réaliser ce projet absurde. Mais je crois beaucoup en la flemme éternelle de chacun pour que ce fichier reste sur vos disques durs !</p>
-            </div>
-            <div class="col-right">
-              <p class="visit">site ↑↑↑</p>
-              <p class="comment black">Le site n'est toujours pas en ligne, j'essaie de m'y consacrer bientôt.<br />
-Un pdf résumant et présentant le projet peut m'être demandé.</p>
-              <p class="sourcesp">
-                <a class="sources" href="https://github.com/" target="blank" title="Sources sur GitHub">Sources <span class="sym">↗</span></a>
-              </p>
-              <dl>
-                <dt>~light-nanosecond_ruler</dt>
-                <dd>
-                  <dl>
-                    <dt>/lnsr_n1.object <span class="done">✓</span></dt>
-                    <dd class="desc">Premier exemplaire d’une nanoseconde-lumière. Elle est le point de départ de la future année-lumière.</dd>
-                  </dl>
-                </dd>
-                <dd>
-                  <dl>
-                    <dt>/lnsr_generator <span class="done">~</span></dt>
-                    <dd class="desc">Un site sur lequel il possible de télécharger les fichiers permettant de fabriquer soi-même la règle ou en commander une. Ce site fait aussi office de compteur général et s’arrêtera lorsque l’année-lumière aura été entièrement téléchargée (soit 31 557 600 000 000 000 clics).</dd>
-                  </dl>
-                </dd>
-                <dd>
-                  <dl>
-                    <dt>/light-year_gigacontainer <span class="done">✓</span></dt>
-                    <dd class="desc">Le gigacontainer est une forme fictive de production à grande échelle qui donne à voir le volume total que représente les règles. Il est composé de ~24 billions de conteneurs répartis de manière homothétique.</dd>
-                    <dd>
-                      <dl>
-                        <dt>/50s_dezoom.video <span class="done">✓</span></dt>
-                        <dd class="desc">Réalisation d’une video dézoomant sur le gigacontainer. </br>50 s - loop.</dd>
-                      </dl>
-                    </dd>
-                    <dd>
-                      <dl>
-                        <dt>/19km_travelling.video <span class="done">✓</span></dt>
-                        <dd class="desc">Travelling de 19 km sur la longueur du gigacontainer. </br>5 h 32 min - loop.</dd>
-                      </dl>
-                    </dd>
-                  </dl>
-                </dd>
-              </dl>
-              <p class="public"><strong class="publicTitle">Exposition :</strong><br />
-La règle n°1, réalisée à la découpe laser dans du PMMA, à été exposée avec un dispositif lumineux à l'<a href="http://www.espacemultimediagantner.cg90.net/" target="_blank">Espace Multimédia Gantner</a> du 7 novembre 2015 au 23 janvier 2016 à l'occasion de l'exposition collective <a href="http://www.espacemultimediagantner.cg90.net/exposition/apparitions-revelations-une-exploration-de-la-lumiere/" target="_blank">Apparitions – Révélations, une exploration de la lumière</a>.<br /><a href="http://www.espacemultimediagantner.cg90.net/VR/apparitions/tour.html" target="_blank">-&gt;Visite virtuelle de l'expo</a></p>
-              <p>
-                <img alt="installEMG" id="lnsrInstall" src="imgs/lnsr/installEMG.jpg" />
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="sect-nmilliards">
-        <div class="folder box flex black thinBorder" id="nmilliards">
-          <h3>n × 10<sup>9</sup></h3>
-        </div>
-        <div class="triangle"></div>
-        <div class="black">
-          <div class="specontent thinBorder">
-            <div class="col-left">
-              <p><a href="https://github.com/n-milliards/" target="blank">n × 10⁹</a> (à prononcer "n milliards") est une collaboration avec <a href="https://github.com/alexAubin" target="blank" title="site alex">Alexandre Aubin</a> (docteur en physique des particules et ingénieur). Nous organisons et animons notamment des ateliers pour tous âges autour de la programmation et de l'électronique. Nous réalisons aussi ensemble l'instrument de géo-temps variant.</p>
-            </div>
-            <div class="col-right">
-              <p>Vous pouvez nous contacter à <a href="mailto:n-milliards@autre.space?Subject=First%20contact" title="mail to n × 10⁹">n-milliards@autre.space</a> ou vous rendre sur notre page <a href="https://github.com/n-milliards/" target="blank">GitHub</a>.</p>
-            </div>
-          </div>
-        </div>
-        <div class="file">
-          <div class="base-content box flex thinBorder">
-            <h4 class="targ">WALL-EENO - ARDUINO</h4>
-            <p class="version">since 2014</p>
-            <p class="licence">GPL 1.3</p>
-            <a target="_blank" href="https://github.com/n-milliards/atelierArduino">/atelierArduino</a>
-          </div>
-          <div class="content thinBorder" id="walleeno">
-            <div class="col-left">
-              <p class="titreImg img">
-                <img alt="titre we" src="imgs/walleeno/titre.svg" />
-              </p>
-              <p>Cet atelier propose une initiation à l'électronique et à la programmation au travers de la robotique et d'Arduino. L'<a href="https://www.arduino.cc/" target="blank" title="Site d'Arduino">Arduino</a> est un circuit imprimé contenant tous les éléments nécessaires au prototypage rapide de projets électroniques relativement modestes et à petit budget. Il fonctionne avec du logiciel libre et ses plans sont accessibles. C'est un excellent outil pour quiconque souhaiterait comprendre un peu mieux comment l'univers numérique fonctionne et commencer à réaliser ses propres idées.</p>
-              <p>L'atelier consiste en la fabrication d'un petit robot nommé Wall-eeno, que nous avons développé, qu'il faudra monter puis programmer afin de lui faire parcourir un circuit.</p>
-              <p>Ce petit robot évolue au fur et à mesure de nos ateliers et il est composé désormais d'un petit bras actionneur et d'un capteur ultrason. Il est capable de s'arrêter devant un obstacle et d'actionner son bras pour ouvrir des portes.</p>
-              <p class="img">
-                <img alt="photo1" src="imgs/walleeno/atelier1.jpg" />
-              </p>
-            </div>
-            <div class="col-right">
-              <p class="visit">site ↑↑↑</p>
-              <p class="comment black">Cet atelier existe sous différends formats suivant l'âge (10 ans minimum), entre 3 et 6h réalisés sur la même journée avec différents objectifs.   Nous intervenons à deux pour un groupe de généralement 8-10 personnes, voire un peu moins pour les plus jeunes.  </br></br>
-Le code du robot, la liste des composants nécessaires et les fichiers vectoriels des éléments à découper sont disponibles sur github pour quiconque souhaiterait le refaire chez lui ou en groupe.</p>
-              <p class="sourcesp">
-                <a class="sources" href="https://github.com/n-milliards/atelierArduino" target="blank" title="sources sur GitHub">Sources de l'atelier <span class="sym">↗</span></a>
-              </p>
-              <p class="img" id="wePhoto">
-                <img alt="photo2" src="imgs/walleeno/atelier2.jpg" />
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="file">
-          <div class="base-content box flex thinBorder">
-            <h4 class="targ">JEU-VIDÉO MINIMALISTE - PYTHON</h4>
-            <p class="version">juillet 2016</p>
-            <p class="licence">GPL 1.3</p>
-            <a target="_blank" href="https://github.com/n-milliards/atelierPython">/atelierPython</a>
-          </div>
-          <div class="content thinBorder" id="pygame">
-            <div class="col-left">
-              <p class="titreImg img">
-                <img alt="titre py" src="imgs/pygame/titre.svg" />
-              </p>
-              <p>nomDuJeu est un <em>transport puzzle</em>, un petit jeu en pixel art extrêmement basique entièrement codé en python avec l'aide de la librairie <a href="http://pygame.org" target="blank" title="lien vers le site de pygame">Pygame</a>. L'objectif est de positionner des blocs à des endroits précis en les poussant.</p>
-              <p>Nous proposons lors d'ateliers d'initiation à la programmation de réaliser ce petit jeu. Cet atelier propose d'introduire les concepts fondamentaux et la logique de programmation à travers l'élaboration étape par étape d'un jeu <em>text based</em> puis du jeu graphique.</p>
-              <p class="img">
-                <img alt="Screenshot jeu" src="imgs/pygame/screenJeu.png" />
-              </p>
-            </div>
-            <div class="col-right">
-              <p class="visit">site ↑↑↑</p>
-              <p class="comment black">Cet atelier se déroule en 4 sessions de 3h. Nous intervenons à deux pour un groupe de ~8 personnes et s'adresse à un public de plus de 16 ans.<br />
-Les supports d'ateliers (slides, schémas, fiches mémos, ...), les exercices et les images sont disponibles sur github pour quiconque souhaiterait le refaire chez lui ou en groupe.</p>
-              <p class="sourcesp" id="atelierLink">
-                <a class="sources" href="https://github.com/alexAubin/mapAndPlayer" target="blank" title="sources sur GitHub">Sources du jeu <span class="sym">↗</span></a>
-                <a class="sources" href="https://github.com/alexAubin/mapAndPlayer" target="blank" title="sources sur GitHub">Sources de l'atelier <span class="sym">↗</span></a>
-              </p>
-            </div>
-          </div>
-        </div>
       </section>
       <section id="sect-graphisme">
-        <div class="folder box flex black thinBorder" id="graphisme">
+        <div id="graphisme" class="folder box flex black thinBorder">
           <h3>graphisme</h3>
         </div>
         <div class="triangle"></div>
@@ -389,14 +292,95 @@ Pour des projets nécessitant de grosses compétences en programmation et en adm
         </div>
         <div class="file">
           <div class="base-content box flex thinBorder">
+            <h4 class="targ">TA VITESSE PLAFOND - ZANZIBAR</h4>
+            <p class="version">mai 2016</p>
+            <p class="licence">CC BY-NC-ND 4.0</p>
+            <a href="http://zanzibar.zone" target="_blank">zanzibar.zone</a>
+          </div>
+          <div id="tvp" class="content thinBorder">
+            <div class="col-left">
+              <h5 id="tvpTitre">taVitessePlafond</h5>
+              <p class="padPara">« Se détendre les poings, en rupture de songe sédentaire, pour un trépignant vis-à-vis avec l’idée, ainsi qu’une envie prend ou bouger : mais la génération semble peu agitée, outre le désintéressement politique, du souci d’extravaguer du corps. Excepté la monotonie, certes, d’enrouler, entre les jarrets, sur la chaussée, selon l’instrument en faveur, la fiction d’un éblouissant rail continu. »</p>
+              <p class="padPara">Stéphane Mallarmé, <em>l'action restreinte</em></p>
+              <img alt="preview" class="imgAlt" src="imgs/tvp/previewSite.png" />
+              <p class="altText">
+                <em>[preview de 2 exemplaires]</em>
+              </p>
+            </div>
+            <div class="col-right">
+              <p class="visit">site ↑↑↑</p>
+              <p class="comment black">Réalisation d'une série de pliages A4 recto-verso pour de courts textes sur le thème de la disparition écrits par différends membres du collectif <a href="http://zanzibar.zone/" target="blank" title="Site du collectif Zanzibar">Zanzibar</a>. Ces textes ne sont diffusés que physiquement et se trouve à l'intérieur d'autres livres dans différentes librairies en France, Suisse et Belgique.</p>
+              <dl>
+                <dt>~/taVitessePlafond = [</dt>
+                <dd>\1. Alice, 22 ans</dd>
+                <dd>\2. Titus, 24 ans</dd>
+                <dd>\3. Félix, 19 ans</dd>
+                <dd>\4. Luce, 21 ans<br />
+]</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="file">
+          <div class="base-content box flex thinBorder">
+            <h4 class="targ">1000 JOURS EN MARS - ZANZIBAR</h4>
+            <p class="version">mars 2016</p>
+            <p class="licence">LAL 1.3</p>
+            <a href="https://1000joursenmars.space" target="_blank">1000joursenmars.space</a>
+          </div>
+          <div id="j1000" class="content thinBorder">
+            <div class="col-left">
+              <h5 id="milleTitre">1000 jours en mars</h5>
+              <p class="padPara">Le 31 mars 2016 au soir, la Nuit Debout a pété les calendriers. Depuis, le mois de mars s'étire. Personne pour prédire jusqu'à quand il durera.</p>
+              <p class="padPara">1000 jours en mars est un projet d'écriture à mille mains, une fabrique bricolée de mille futurs possibles.<br />
+1000 jours en mars invite à imaginer collectivement les un-peu-moins de trois années qui arrivent. C'est de la science-fiction en prise directe avec le réel. Un endroit où formuler des espoirs, des attentes, des craintes. Où se raconter, puis raconter aux autres, les histoires de ce qui va se passer.</p>
+            </div>
+            <div class="col-right">
+              <p class="visit">site ↑↑↑</p>
+              <p class="comment black">Réalisation d'un website pour présenter l'évolution quotidienne du projet d'écriture collaborative initié par le collectif d'auteur-e-s de science-fiction <a href="http://zanzibar.zone/" target="blank" title="Site du collectif Zanzibar">Zanzibar</a>. Un parser récupère chaque jour le contenu d'un <a href="https://strasbourg.nuitdebout.fr/pad/p/1000joursenmars" target="blank">pad</a> (outil d'écriture collaborative libre) et met en page automatiquement l'ensemble des textes à la manière d'un calendrier.</p>
+              <p class="sourcesp">
+                <a class="sources" href="https://github.com/Axolotle/1000joursenmars" target="blank" title="Sources sur GitHub">Sources <span class="sym">↗</span></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="file">
+          <div class="base-content box flex thinBorder">
+            <h4 class="targ">AVENIR(S) D'INTERNET - HACKSTUB</h4>
+            <p class="version">nov 2015</p>
+            <p class="licence">GPL 1.3</p>
+            <a href="https://avenirsdinter.net" target="_blank">avenirsdinter.net</a>
+          </div>
+          <div id="adi" class="content thinBorder">
+            <div class="col-left">
+              <img alt="titre Avenirs d'internet" class="titreImg" src="imgs/adi/titre.svg" />
+              <p><a href="https://avenirsdinter.net/" target="blank" title="Site de l'événement">Avenir(s) d'internet</a> est une série de conférences et d'ateliers autour de la vie privée numérique et de l'auto-hébergement organisée par <a href="https://hackstub.netlib.re/landpage/" target="blank" title="Site du hackerspace Hackstub">Hackstub</a>.</p>
+              <p>Cet événement proposait une réflexion, une critique et un début de solution aux problèmes de la surveillance généralisée pratiquée par les gouvernements et les multinationales tel que Google et Facebook. L'introduction de <a href="https://twitter.com/jerezim?lang=fr" target="blank" title="Twitter de Jérémie Zimmermann">Jérémie Zimmermann</a> et <a href="http://leo-henry.com/" target="blank" title="Site personnel de Léo Henry">Léo Henry</a> emprunte aux récits de fiction, connus ou produit pour l'occasion, les mises en garde quant aux dérives possibles ou déjà existantes des pratiques d'accumulation de données personnelles.</p>
+              <p>La suite d'atelier proposait à une quinzaine de personnes de s'initier aux compétences désormais nécessaires pour se protéger et s'autonomiser au travers d'activités cherchant à briser la barrière technique, source de grande frustration chez bon nombre de personnes.</p>
+              <img alt="Schéma Cyberespace" src="imgs/adi/schemaCyber.svg" />
+              <p>Enfin, une conférence de clôture invitait différents programmeurs et activistes, à l'origine de logiciels ou services fonctionnant de manière décentralisé et proposant à ses utilisateurs une réelle autonomie, à présenter leur projet. Ljf pour <a href="https://yunohost.org/" target="blank" title="Site du projet YunoHost">YunoHost</a> et <a href="https://labriqueinter.net/" target="blank" title="Site du projet la brique internet">la Brique Internet</a> ; Edhelas pour <a href="https://movim.eu/" target="blank" title="Site de Movim">Movim</a> ; Karchnu pour <a href="http://arn-fai.net/" target="blank" title="Site du FAI associatif ARN">Alsace Réseau Neutre</a> (ARN).</p>
+              <img alt="Affiche 2" id="adiAffiche" src="imgs/adi/affiche2.png" />
+            </div>
+            <div class="col-right">
+              <p class="visit">site ↑↑↑</p>
+              <p class="comment black">Réalisation d'une affiche/flyer et d'un site pour la série d'ateliers et de conférences Avenir(s) d'Internet organisé par <a href="https://hackstub.netlib.re/landpage/" title="Site du hackerspace Hackstub">Hackstub</a>.</p>
+              <p class="sourcesp">
+                <a class="sources" href="https://github.com/hackstub/avenirsdinternet" target="blank" title="Sources sur GitHub">Sources <span class="sym">↗</span></a>
+              </p>
+              <img alt="Affiche 1" src="imgs/adi/affiche1.png" />
+            </div>
+          </div>
+        </div>
+        <div class="file">
+          <div class="base-content box flex thinBorder">
             <h4 class="targ">PIXELPATH FONT</h4>
             <p class="version">2014</p>
             <p class="licence">LAL 1.3</p>
-            <a target="_blank" href="https://pxph.autre.space">
+            <a href="https://pxph.autre.space" target="_blank">
               <s class='unacess'>pxph.autre.space</s>
             </a>
           </div>
-          <div class="content thinBorder" id="pxph">
+          <div id="pxph" class="content thinBorder">
             <div class="col-left">
               <h5 id="pxphTitre">pxph-9</h5>
               <p><em>Pixelpath-9</em> est une font de titrage pixel transposée en son équivalent vectoriel.</p>
@@ -418,100 +402,76 @@ Pour des projets nécessitant de grosses compétences en programmation et en adm
             <div class="col-right">
               <p class="visit">site ↑↑↑</p>
               <p class="comment black">Les sources ne sont pas encore distribuées. Et j'aimerais réaliser la font pixel en font matricielle mais vous pouvez d'ors et déjà télécharger et utiliser pxph-9.</p>
-              <p class="img" id="pxphTable">
-                <img alt="pxph table des caractère" src="imgs/pxph/pxphTable.png" />
-              </p>
+              <img alt="pxph table des caractère" id="pxphTable" src="imgs/pxph/pxphTable.png" />
               <!-- [Sources <span class="sym">↗</span>][sourcesGitHub]{: .sources target="blank"}
 {: .sourcesp} -->
             </div>
           </div>
         </div>
+      </section>
+      <section id="sect-nmilliards">
+        <div id="nmilliards" class="folder box flex black thinBorder">
+          <h3>n × 10<sup>9</sup></h3>
+        </div>
+        <div class="triangle"></div>
+        <div class="black">
+          <div class="specontent thinBorder">
+            <div class="col-left">
+              <p><a href="https://github.com/n-milliards/" target="blank">n × 10⁹</a> (à prononcer "n milliards") est une collaboration avec <a href="https://github.com/alexAubin" target="blank" title="site alex">Alexandre Aubin</a> (docteur en physique des particules et ingénieur). Nous organisons et animons notamment des ateliers pour tous âges autour de la programmation et de l'électronique. Nous réalisons aussi ensemble l'instrument de géo-temps variant.</p>
+            </div>
+            <div class="col-right">
+              <p>Vous pouvez nous contacter à <a href="mailto:n-milliards@autre.space?Subject=First%20contact" title="mail to n × 10⁹">n-milliards@autre.space</a> ou vous rendre sur notre page <a href="https://github.com/n-milliards/" target="blank">GitHub</a>.</p>
+            </div>
+          </div>
+        </div>
         <div class="file">
           <div class="base-content box flex thinBorder">
-            <h4 class="targ">AVENIR(S) D'INTERNET - HACKSTUB</h4>
-            <p class="version">nov 2015</p>
+            <h4 class="targ">JEU-VIDÉO MINIMALISTE - PYTHON</h4>
+            <p class="version">juillet 2016</p>
             <p class="licence">GPL 1.3</p>
-            <a target="_blank" href="https://avenirsdinter.net">avenirsdinter.net</a>
+            <a href="https://github.com/n-milliards/atelierPython" target="_blank">/atelierPython</a>
           </div>
-          <div class="content thinBorder" id="adi">
+          <div id="pygame" class="content thinBorder">
             <div class="col-left">
-              <p class="titreImg img">
-                <img alt="titre Avenirs d'internet" src="imgs/adi/titre.svg" />
-              </p>
-              <p><a href="https://avenirsdinter.net/" target="blank" title="Site de l'événement">Avenir(s) d'internet</a> est une série de conférences et d'ateliers autour de la vie privée numérique et de l'auto-hébergement organisée par <a href="https://hackstub.netlib.re/landpage/" target="blank" title="Site du hackerspace Hackstub">Hackstub</a>.</p>
-              <p>Cet événement proposait une réflexion, une critique et un début de solution aux problèmes de la surveillance généralisée pratiquée par les gouvernements et les multinationales tel que Google et Facebook. L'introduction de <a href="https://twitter.com/jerezim?lang=fr" target="blank" title="Twitter de Jérémie Zimmermann">Jérémie Zimmermann</a> et <a href="http://leo-henry.com/" target="blank" title="Site personnel de Léo Henry">Léo Henry</a> emprunte aux récits de fiction, connus ou produit pour l'occasion, les mises en garde quant aux dérives possibles ou déjà existantes des pratiques d'accumulation de données personnelles.</p>
-              <p>La suite d'atelier proposait à une quinzaine de personnes de s'initier aux compétences désormais nécessaires pour se protéger et s'autonomiser au travers d'activités cherchant à briser la barrière technique, source de grande frustration chez bon nombre de personnes.</p>
-              <p class="img">
-                <img alt="Schéma Cyberespace" src="imgs/adi/schemaCyber.svg" />
-              </p>
-              <p>Enfin, une conférence de clôture invitait différents programmeurs et activistes, à l'origine de logiciels ou services fonctionnant de manière décentralisé et proposant à ses utilisateurs une réelle autonomie, à présenter leur projet. Ljf pour <a href="https://yunohost.org/" target="blank" title="Site du projet YunoHost">YunoHost</a> et <a href="https://labriqueinter.net/" target="blank" title="Site du projet la brique internet">la Brique Internet</a> ; Edhelas pour <a href="https://movim.eu/" target="blank" title="Site de Movim">Movim</a> ; Karchnu pour <a href="http://arn-fai.net/" target="blank" title="Site du FAI associatif ARN">Alsace Réseau Neutre</a> (ARN).</p>
-              <p class="img" id="adiAffiche">
-                <img alt="Affiche 2" src="imgs/adi/affiche2.png" />
-              </p>
+              <img alt="titre py" class="titreImg" src="imgs/pygame/titre.svg" />
+              <p>nomDuJeu est un <em>transport puzzle</em>, un petit jeu en pixel art extrêmement basique entièrement codé en python avec l'aide de la librairie <a href="http://pygame.org" target="blank" title="lien vers le site de pygame">Pygame</a>. L'objectif est de positionner des blocs à des endroits précis en les poussant.</p>
+              <p>Nous proposons lors d'ateliers d'initiation à la programmation de réaliser ce petit jeu. Cet atelier propose d'introduire les concepts fondamentaux et la logique de programmation à travers l'élaboration étape par étape d'un jeu <em>text based</em> puis du jeu graphique.</p>
+              <img alt="Screenshot jeu" src="imgs/pygame/screenJeu.png" />
             </div>
             <div class="col-right">
               <p class="visit">site ↑↑↑</p>
-              <p class="comment black">Réalisation d'une affiche/flyer et d'un site pour la série d'ateliers et de conférences Avenir(s) d'Internet organisé par <a href="https://hackstub.netlib.re/landpage/" title="Site du hackerspace Hackstub">Hackstub</a>.</p>
-              <p class="sourcesp">
-                <a class="sources" href="https://github.com/hackstub/avenirsdinternet" target="blank" title="Sources sur GitHub">Sources <span class="sym">↗</span></a>
-              </p>
-              <p class="img">
-                <img alt="Affiche 1" src="imgs/adi/affiche1.png" />
+              <p class="comment black">Cet atelier se déroule en 4 sessions de 3h. Nous intervenons à deux pour un groupe de ~8 personnes et s'adresse à un public de plus de 16 ans.<br />
+Les supports d'ateliers (slides, schémas, fiches mémos, ...), les exercices et les images sont disponibles sur github pour quiconque souhaiterait le refaire chez lui ou en groupe.</p>
+              <p class="sourcesp" id="atelierLink">
+                <a class="sources" href="https://github.com/alexAubin/mapAndPlayer" target="blank" title="sources sur GitHub">Sources du jeu <span class="sym">↗</span></a>
+                <a class="sources" href="https://github.com/alexAubin/mapAndPlayer" target="blank" title="sources sur GitHub">Sources de l'atelier <span class="sym">↗</span></a>
               </p>
             </div>
           </div>
         </div>
         <div class="file">
           <div class="base-content box flex thinBorder">
-            <h4 class="targ">1000 JOURS EN MARS - ZANZIBAR</h4>
-            <p class="version">mars 2016</p>
-            <p class="licence">LAL 1.3</p>
-            <a target="_blank" href="https://1000joursenmars.space">1000joursenmars.space</a>
+            <h4 class="targ">WALL-EENO - ARDUINO</h4>
+            <p class="version">since 2014</p>
+            <p class="licence">GPL 1.3</p>
+            <a href="https://github.com/n-milliards/atelierArduino" target="_blank">/atelierArduino</a>
           </div>
-          <div class="content thinBorder" id="j1000">
+          <div id="walleeno" class="content thinBorder">
             <div class="col-left">
-              <h5 id="milleTitre">1000 jours en mars</h5>
-              <p class="padPara">Le 31 mars 2016 au soir, la Nuit Debout a pété les calendriers. Depuis, le mois de mars s'étire. Personne pour prédire jusqu'à quand il durera.</p>
-              <p class="padPara">1000 jours en mars est un projet d'écriture à mille mains, une fabrique bricolée de mille futurs possibles.<br />
-1000 jours en mars invite à imaginer collectivement les un-peu-moins de trois années qui arrivent. C'est de la science-fiction en prise directe avec le réel. Un endroit où formuler des espoirs, des attentes, des craintes. Où se raconter, puis raconter aux autres, les histoires de ce qui va se passer.</p>
+              <img alt="titre we" class="titreImg" src="imgs/walleeno/titre.svg" />
+              <p>Cet atelier propose une initiation à l'électronique et à la programmation au travers de la robotique et d'Arduino. L'<a href="https://www.arduino.cc/" target="blank" title="Site d'Arduino">Arduino</a> est un circuit imprimé contenant tous les éléments nécessaires au prototypage rapide de projets électroniques relativement modestes et à petit budget. Il fonctionne avec du logiciel libre et ses plans sont accessibles. C'est un excellent outil pour quiconque souhaiterait comprendre un peu mieux comment l'univers numérique fonctionne et commencer à réaliser ses propres idées.</p>
+              <p>L'atelier consiste en la fabrication d'un petit robot nommé Wall-eeno, que nous avons développé, qu'il faudra monter puis programmer afin de lui faire parcourir un circuit.</p>
+              <p>Ce petit robot évolue au fur et à mesure de nos ateliers et il est composé désormais d'un petit bras actionneur et d'un capteur ultrason. Il est capable de s'arrêter devant un obstacle et d'actionner son bras pour ouvrir des portes.</p>
+              <img alt="photo1" src="imgs/walleeno/atelier1.jpg" />
             </div>
             <div class="col-right">
               <p class="visit">site ↑↑↑</p>
-              <p class="comment black">Réalisation d'un website pour présenter l'évolution quotidienne du projet d'écriture collaborative initié par le collectif d'auteur-e-s de science-fiction <a href="http://zanzibar.zone/" target="blank" title="Site du collectif Zanzibar">Zanzibar</a>. Un parser récupère chaque jour le contenu d'un <a href="https://strasbourg.nuitdebout.fr/pad/p/1000joursenmars" target="blank">pad</a> (outil d'écriture collaborative libre) et met en page automatiquement l'ensemble des textes à la manière d'un calendrier.</p>
+              <p class="comment black">Cet atelier existe sous différends formats suivant l'âge (10 ans minimum), entre 3 et 6h réalisés sur la même journée avec différents objectifs.   Nous intervenons à deux pour un groupe de généralement 8-10 personnes, voire un peu moins pour les plus jeunes.  </br></br>
+Le code du robot, la liste des composants nécessaires et les fichiers vectoriels des éléments à découper sont disponibles sur github pour quiconque souhaiterait le refaire chez lui ou en groupe.</p>
               <p class="sourcesp">
-                <a class="sources" href="https://github.com/Axolotle/1000joursenmars" target="blank" title="Sources sur GitHub">Sources <span class="sym">↗</span></a>
+                <a class="sources" href="https://github.com/n-milliards/atelierArduino" target="blank" title="sources sur GitHub">Sources de l'atelier <span class="sym">↗</span></a>
               </p>
-            </div>
-          </div>
-        </div>
-        <div class="file">
-          <div class="base-content box flex thinBorder">
-            <h4 class="targ">TA VITESSE PLAFOND - ZANZIBAR</h4>
-            <p class="version">mai 2016</p>
-            <p class="licence">undefined</p>
-            <a target="_blank" href="http://zanzibar.zone">zanzibar.zone</a>
-          </div>
-          <div class="content thinBorder" id="tvp">
-            <div class="col-left">
-              <h5 id="tvpTitre">taVitessePlafond</h5>
-              <p class="padPara">« Se détendre les poings, en rupture de songe sédentaire, pour un trépignant vis-à-vis avec l’idée, ainsi qu’une envie prend ou bouger : mais la génération semble peu agitée, outre le désintéressement politique, du souci d’extravaguer du corps. Excepté la monotonie, certes, d’enrouler, entre les jarrets, sur la chaussée, selon l’instrument en faveur, la fiction d’un éblouissant rail continu. »</p>
-              <p class="padPara">Stéphane Mallarmé, <em>l'action restreinte</em></p>
-              <p class="imgAlt">
-                <img alt="preview" src="imgs/tvp/previewSite.png" />
-                <em class="altText">[preview de 2 exemplaires]</em>
-              </p>
-            </div>
-            <div class="col-right">
-              <p class="visit">site ↑↑↑</p>
-              <p class="comment black">Réalisation d'une série de pliages A4 recto-verso pour de courts textes sur le thème de la disparition écrits par différends membres du collectif <a href="http://zanzibar.zone/" target="blank" title="Site du collectif Zanzibar">Zanzibar</a>. Ces textes ne sont diffusés que physiquement et se trouve à l'intérieur d'autres livres dans différentes librairies en France, Suisse et Belgique.</p>
-              <dl>
-                <dt>~/taVitessePlafond = [</dt>
-                <dd>\1. Alice, 22 ans</dd>
-                <dd>\2. Titus, 24 ans</dd>
-                <dd>\3. Félix, 19 ans</dd>
-                <dd>\4. Luce, 21 ans<br />
-]</dd>
-              </dl>
+              <img alt="photo2" id="wePhoto" src="imgs/walleeno/atelier2.jpg" />
             </div>
           </div>
         </div>

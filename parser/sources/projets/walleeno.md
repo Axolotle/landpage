@@ -9,8 +9,7 @@
 
 <div markdown=1 class="col-left">
 
-![titre we][title]
-{: .titreImg .img}
+![titre we][title]{: .titreImg}
 
 Cet atelier propose une initiation à l'électronique et à la programmation au travers de la robotique et d'Arduino. L'[Arduino][]{: target="blank"} est un circuit imprimé contenant tous les éléments nécessaires au prototypage rapide de projets électroniques relativement modestes et à petit budget. Il fonctionne avec du logiciel libre et ses plans sont accessibles. C'est un excellent outil pour quiconque souhaiterait comprendre un peu mieux comment l'univers numérique fonctionne et commencer à réaliser ses propres idées.
 
@@ -19,7 +18,6 @@ L'atelier consiste en la fabrication d'un petit robot nommé Wall-eeno, que nous
 Ce petit robot évolue au fur et à mesure de nos ateliers et il est composé désormais d'un petit bras actionneur et d'un capteur ultrason. Il est capable de s'arrêter devant un obstacle et d'actionner son bras pour ouvrir des portes.
 
 ![photo1][]
-{: .img}
 
 </div>
 
@@ -35,7 +33,6 @@ Le code du robot, la liste des composants nécessaires et les fichiers vectoriel
 [Sources de l'atelier <span class="sym">↗</span>][sourcesGitHub]{: .sources target="blank"}
 {: .sourcesp}
 
-![photo2][]
-{: .img #wePhoto}
+![photo2][]{: #wePhoto}
 
 </div>

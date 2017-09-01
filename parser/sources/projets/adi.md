@@ -26,8 +26,7 @@
 
 <div markdown=1 class="col-left">
 
-![titre Avenirs d'internet][title]
-{: .titreImg .img}
+![titre Avenirs d'internet][title]{: .titreImg}
 
 [Avenir(s) d'internet][adi]{: target="blank"} est une série de conférences et d'ateliers autour de la vie privée numérique et de l'auto-hébergement organisée par [Hackstub][]{: target="blank"}.
 
@@ -36,12 +35,10 @@ Cet événement proposait une réflexion, une critique et un début de solution 
 La suite d'atelier proposait à une quinzaine de personnes de s'initier aux compétences désormais nécessaires pour se protéger et s'autonomiser au travers d'activités cherchant à briser la barrière technique, source de grande frustration chez bon nombre de personnes.
 
 ![Schéma Cyberespace][schemaCyber]
-{: .img}
 
 Enfin, une conférence de clôture invitait différents programmeurs et activistes, à l'origine de logiciels ou services fonctionnant de manière décentralisé et proposant à ses utilisateurs une réelle autonomie, à présenter leur projet. Ljf pour [YunoHost][]{: target="blank"} et [la Brique Internet][brique]{: target="blank"} ; Edhelas pour [Movim][]{: target="blank"} ; Karchnu pour [Alsace Réseau Neutre][arn]{: target="blank"} (ARN).
 
-![Affiche 2][affiche2]
-{: .img #adiAffiche}
+![Affiche 2][affiche2]{: #adiAffiche}
 
 
 </div>
@@ -58,6 +55,5 @@ Réalisation d'une affiche/flyer et d'un site pour la série d'ateliers et de co
 {: .sourcesp}
 
 ![Affiche 1][affiche1]
-{: .img}
 
 </div>
