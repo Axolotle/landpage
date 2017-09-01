@@ -7,7 +7,7 @@
 
 <div markdown=1 class="col-left">
 
-##pxph-9 {: #pxphTitre}
+#####pxph-9 {: #pxphTitre}
 
 _Pixelpath-9_ est une font de titrage pixel transposée en son équivalent vectoriel.
 
